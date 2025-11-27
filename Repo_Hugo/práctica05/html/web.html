@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Video HTML5 Test</title>
+</head>
+<body>
+    <h1>Video Big Buck Bunny</h1>
+    <video width="640" height="360" controls>
+        <source src="./video5/big_buck_bunny.ogv"  type="video/ogg; codecs=theora,vorbis">
+        <source src="./video5/big_buck_bunny.mp4"  type="video/mp4; codecs=avc1.42E01E,mp4a.40.2">
+        <source src="./video5/big_buck_bunny.webm" type="video/webm; codecs=vp8,vorbis">
+
+        <!-- Fallback flash: -->
+        <object type="application/x-shockwave-flash" 
+                    data="http://releases.flowplayer.org/swf/flowplayer-3.2.1.swf"
+                    width="640" height="360">
+            <param name="flashvars" value='config={"clip":"http://host/ruta/big_buck_bunny.mp4"}'/>
+                <!-- Fallback final: -->
+                <p>No se puede reproducir el video</p>
+        </object>
+    </video>
+</body>
+</html>
