@@ -1,5 +1,2 @@
-Practicas de Hugo:
+Esto es una prueba para ver como funciona el repositorio
 
-Sesion 3.1
-Sesion 4.1
-Sesion 6.1
