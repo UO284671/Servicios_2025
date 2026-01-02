@@ -1,0 +1,6 @@
+basedatos/
+**/__pycache__/
+**/*.pyc
+sys/
+mysql/
+performance_schema/
