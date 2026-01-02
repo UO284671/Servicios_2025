@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "216268913564",
+    "project_id": "amigos-4c788",
+    "storage_bucket": "amigos-4c788.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:216268913564:android:376b8fe1931a25bca4e659",
+        "android_client_info": {
+          "package_name": "es.uniovi.amigos"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBHRS4IjnMLHSEO84hu6YdH2-cUTkBrRJU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
