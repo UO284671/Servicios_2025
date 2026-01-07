@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<smil title="smil">
+	<body>
+		<switch>
+			<video src="mp4:conejo_300.mp4">
+				<param name="videoBitrate" value="170819" valuetype="data"></param>
+				<param name="audioBitrate" value="131804" valuetype="data"></param>
+			</video>
+			<video src="mp4:conejo_450.mp4">
+				<param name="videoBitrate" value="344453" valuetype="data"></param>
+				<param name="audioBitrate" value="131804" valuetype="data"></param>
+			</video>
+			<video src="mp4:conejo_750.mp4">
+				<param name="videoBitrate" value="644274" valuetype="data"></param>
+				<param name="audioBitrate" value="131804" valuetype="data"></param>
+			</video>
+			<video src="mp4:conejo_1100.mp4">
+				<param name="videoBitrate" value="993719" valuetype="data"></param>
+				<param name="audioBitrate" value="131804" valuetype="data"></param>
+			</video>
+		</switch>
+	</body>
+</smil>
