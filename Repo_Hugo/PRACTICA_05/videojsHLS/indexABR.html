@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>HLS con ABR con Video.js</title>
+        <link href="https://vjs.zencdn.net/7.1.0/video-js.css" rel="stylesheet">
+    </head>
+
+    <body>
+        <h1>HLS con Video.js</h1>
+        <video id="my-video" class="video-js" controls
+                preload="auto" width="640" height="264">
+            <source src="http://192.168.0.21:1935/abr/mp4:sample.mp4/playlist.m3u8" type="application/x-mpegURL">
+            <p class="vjs-no-js">
+                Para ver este video debes activar JavaScript y tener un navegador
+                moderno que <a href="https://videojs.com/html5-video-support/">
+                soporte HTML5 video</a>
+            </p>
+        </video>
+
+        <script src="https://vjs.zencdn.net/7.1.0/video.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/videojs-contrib-quality-levels@2.0.7/dist/videojs-contrib-quality-levels.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/videojs-hls-quality-selector@0.0.8/dist/videojs-hls-quality-selector.min.js"></script>
+        <script>
+            // Esto instancia el reproductor del video usando el elemento cuyo
+            // id le pasemos como parámetro
+            var player = videojs('my-video')
+            player.hlsQualitySelector();
+        </script>
+    </body>
+</html>
