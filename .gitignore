@@ -1,2 +1,8 @@
-# Ignorar toda la carpeta de base de datos y sus contenidos
-PRAC-FINAL/PRACTICA_02/Sesion02_AppWeb_HTTP/basedatos/
+# Ignorar datos de la base de datos
+**/basedatos/
+# Si quieres guardar solo los scripts SQL pero no los datos internos:
+# !**/basedatos/*.sql
+
+# Ignorar archivos temporales de Python
+**/__pycache__/
+*.pyc
